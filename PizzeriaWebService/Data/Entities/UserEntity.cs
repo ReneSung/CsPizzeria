@@ -2,11 +2,11 @@
 
 public class UserEntity
 {
-  private Guid Id { get; set; }
-  
-  private string? PhoneNumber { get; set; }
-  
-  private string? PasswordHash { get; set; }
-  
-  private string? Salt { get; set; }
+  public Guid Id { get; set; }
+
+  public string? PhoneNumber { get; set; }
+
+  public string? PasswordHash { get; set; }
+
+  public string? Salt { get; set; }
 }
