@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+*.userosscache
+*.sln.docstates
+
+# Build cache
+project.lock.json
+project.fragment.lock.json
+
+# Dotnet tools
+.dotnet/
+tools/
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
